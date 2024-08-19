@@ -30,7 +30,7 @@ const CoinMarketCapData: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:4000/api/cryptocurrency/listings/latest');
+        const response = await fetch('https://aware-cyclic-bunny.glitch.me/api/cryptocurrency/listings/latest');
         if (!response.ok) {
           throw new Error(`Error: ${response.status}`);
         }

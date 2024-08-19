@@ -17,7 +17,7 @@ const LatestArticles: React.FC = () => {
     const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
-        fetch('http://localhost:4000/api/cryptocurrency/news')
+        fetch('https://aware-cyclic-bunny.glitch.me/api/cryptocurrency/news')
             .then(response => response.json())
             .then(data => {
                 setNews(data.data.slice(0, 4)); // Show only the first 4 articles
