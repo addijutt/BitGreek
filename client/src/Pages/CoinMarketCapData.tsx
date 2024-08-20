@@ -30,11 +30,18 @@ const CoinMarketCapData: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://aware-cyclic-bunny.glitch.me/api/cryptocurrency/listings/latest');
+        const response = await fetch('https://aware-cyclic-bunny.glitch.me/api/cryptocurrency/listings/latest', {
+          method: 'GET',
+          headers: {
+            'Cache-Control': 'no-cache', // Disable cache
+          },
+        });
+
         if (!response.ok) {
           throw new Error(`Error: ${response.status}`);
         }
         const result = await response.json();
+        console.log('Fetched data:', result.data); // Log fetched data for debugging
         setData(result.data);
         setLoading(false);
       } catch (error: any) {
@@ -46,7 +53,7 @@ const CoinMarketCapData: React.FC = () => {
     fetchData();
     const intervalId = setInterval(fetchData, REFRESH_INTERVAL);
 
-    return () => clearInterval(intervalId);
+    return () => clearInterval(intervalId); // Cleanup interval on component unmount
   }, []);
 
   const getColor = (percentChange: number) => {
@@ -79,8 +86,23 @@ const CoinMarketCapData: React.FC = () => {
     );
   };
 
-  if (loading) return <div className="d-flex justify-content-center my-5"><div className="spinner-border" role="status"><span className="visually-hidden">Loading...</span></div></div>;
-  if (error) return <div className="alert alert-danger my-5" role="alert">Error: {error}</div>;
+  if (loading) {
+    return (
+      <div className="d-flex justify-content-center my-5">
+        <div className="spinner-border" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="alert alert-danger my-5" role="alert">
+        Error: {error}
+      </div>
+    );
+  }
 
   return (
     <div className="container text-dark data-table">
@@ -105,7 +127,6 @@ const CoinMarketCapData: React.FC = () => {
               <tr key={coin.id}>
                 <td scope="row">{index + 1}</td>
                 <td>
-                  {/* <img src={coin.image} alt={`${coin.name} logo`} style={{ width: '30px', height: '30px' }} /> */}
                   {coin.name} ({coin.symbol})
                 </td>
                 <td>${coin.quote.USD.price.toFixed(2)}</td>
@@ -125,7 +146,6 @@ const CoinMarketCapData: React.FC = () => {
               </tr>
             ))}
           </tbody>
-
         </table>
       </div>
     </div>

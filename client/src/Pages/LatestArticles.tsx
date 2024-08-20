@@ -16,7 +16,8 @@ const LatestArticles: React.FC = () => {
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
 
-    useEffect(() => {
+    const fetchArticles = () => {
+        setLoading(true);
         fetch('https://aware-cyclic-bunny.glitch.me/api/cryptocurrency/news')
             .then(response => response.json())
             .then(data => {
@@ -28,6 +29,18 @@ const LatestArticles: React.FC = () => {
                 setError('Failed to fetch articles');
                 setLoading(false);
             });
+    };
+
+    useEffect(() => {
+        fetchArticles();
+
+        // Set up polling to fetch articles every 5 minutes
+        const interval = setInterval(() => {
+            fetchArticles();
+        }, 500000);
+
+        // Clean up interval on component unmount
+        return () => clearInterval(interval);
     }, []);
 
     const formatDate = (timestamp: number) => {
@@ -64,7 +77,7 @@ const LatestArticles: React.FC = () => {
                                 <div className="d-flex align-items-center gap-2">
                                     <div className="tag">{item.news_site} </div> 
                                     <p className='mb-0'>
-						{item.author && <>. {item.author}</>} . {formatDate(item.updated_at)}
+                                        {item.author && <>. {item.author}</>} . {formatDate(item.updated_at)}
                                     </p>
                                 </div>
                             </div>
