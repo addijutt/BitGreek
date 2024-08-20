@@ -41,7 +41,6 @@ const CoinMarketCapData: React.FC = () => {
           throw new Error(`Error: ${response.status}`);
         }
         const result = await response.json();
-        // console.log('Fetched data:', result.data);
         setData(result.data);
         setLoading(false);
       } catch (error: any) {
@@ -104,6 +103,10 @@ const CoinMarketCapData: React.FC = () => {
     );
   }
 
+  const formatPrice = (price: number) => {
+    return price < 1 ? price.toFixed(8) : price.toFixed(2);
+  };
+
   return (
     <div className="container text-dark data-table">
       <div className="card bg-white border-0 rounded p-4 pt-0">
@@ -129,7 +132,7 @@ const CoinMarketCapData: React.FC = () => {
                 <td>
                   {coin.name} ({coin.symbol})
                 </td>
-                <td>${coin.quote.USD.price.toFixed(2)}</td>
+                <td>${formatPrice(coin.quote.USD.price)}</td>
                 <td style={{ color: getColor(coin.quote.USD.percent_change_1h) }}>
                   {coin.quote.USD.percent_change_1h.toFixed(2)}%
                 </td>
