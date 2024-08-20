@@ -41,7 +41,7 @@ const CoinMarketCapData: React.FC = () => {
           throw new Error(`Error: ${response.status}`);
         }
         const result = await response.json();
-        console.log('Fetched data:', result.data); // Log fetched data for debugging
+        // console.log('Fetched data:', result.data);
         setData(result.data);
         setLoading(false);
       } catch (error: any) {
