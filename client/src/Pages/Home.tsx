@@ -177,7 +177,7 @@ const Home = () => {
         <section className='bg-white py-5'>
           <div className="container" id='news'>
           <div className="text-center dark-text mb-4 mb-lg-5">
-            <h2>News <span>Updates</span></h2>
+            <h2><span>Crypto</span> News</h2>
           </div>
           <div className="row justify-content-center">
             <div className="col-md-9">
