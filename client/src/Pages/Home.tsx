@@ -63,7 +63,7 @@ const Home = () => {
             <div className="row pt-5 justify-content-center">
               <div className="col-md-12">
               <div className="col-md-8 mx-auto mb-4 mb-lg-5 text-center mb-3"  data-aos="zoom-in" data-aos-duration="1800">
-                <h2 className='mb-3 dark-text'><span>Bitgreek.com</span> Bitgreek.com Vision</h2>
+                <h2 className='mb-3 dark-text'><span>Bitgreek.com</span> Vision</h2>
                 <p className='dark-text'>Why is crypto so hard? Bitgreek.com was born to make a safe, 
                   simple and fun place to build your crypto fortune. Easily swap crypto, stake crypto 
                   and claim airdrops in one easy place.</p>
