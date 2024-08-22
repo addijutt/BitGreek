@@ -118,7 +118,7 @@ const Home = () => {
         </section>
 
         <section>
-          <div className="container">
+          {/* <div className="container">
             <div className="row align-items-center pt-5 pb-md-5">
               <div className="col-md-6">
               <h2 className='mb-3 text-white text-center text-md-start'><span>Bitgreek</span> App</h2>
@@ -134,13 +134,13 @@ const Home = () => {
                 <img src="assets/s11.png" className='w-100' alt="" />
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="bg-white py-lg-4 text-center text-md-start">
           <div className="container">
             <div className="row align-items-center justify-content-between py-5">
               <div className="col-md-5 ">
               <h2 className='mb-3 dark-text'>Philosophy</h2>
-                <p className='dark-text'>BitGreek.com is founded on the basis of providing a simple, safe and fun way to enter 
+                <p className='dark-text'>Bitgreek.com is founded on the basis of providing a simple, safe and fun way to enter 
                   cryptocurrencies. Crypto should be easy, safe and fun and we are making that happen.</p>
                   
               </div>
@@ -164,7 +164,7 @@ const Home = () => {
               </div>
               <div className="col-md-6">
               <h2 className='mb-3 dark-text'>Who is it <span>for</span>?</h2>
-                <p className='dark-text'>BitGreek.com is specifically designed for those that want a 
+                <p className='dark-text'>Bitgreek.com is specifically designed for those that want a 
                   safe and simple way to build their crypto portfolio. If you find crypto hard and 
                   risky, then try BitGreek.com.</p>
                   
