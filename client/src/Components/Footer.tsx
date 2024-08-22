@@ -9,10 +9,10 @@ const Footer = () => {
             <div className="col-md-4 pt-lg-4 mb-md-0 mb-4">
                 <div className='text-center text-md-start'><img src="assets/logo.png" className='footer-logo' alt="" /></div>
               <div className="d-flex align-items-center justify-content-md-start justify-content-center gap-3 mt-4 mb-md-0 mb-2">
-                <a href="javascript:void(0)" className='social-link'><img src="assets/fb.svg" alt="" /></a>
-                <a href="javascript:void(0)" className='social-link'><img src="assets/x.svg" alt="" /></a>
+                {/* <a href="javascript:void(0)" className='social-link'><img src="assets/fb.svg" alt="" /></a> */}
+                <a href="https://x.com/BitGreek" target={"_blank"} className='social-link'><img src="assets/x.svg" alt="" /></a>
                 <a href="javascript:void(0)" className='social-link'><img src="assets/insta.svg" alt="" /></a>
-                <a href="javascript:void(0)" className='social-link'><img src="assets/in.svg" alt="" /></a>
+                {/* <a href="javascript:void(0)" className='social-link'><img src="assets/in.svg" alt="" /></a> */}
               </div>
             </div>
             <div className="col-md-2 col-5">
