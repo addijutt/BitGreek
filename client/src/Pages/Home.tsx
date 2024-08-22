@@ -85,8 +85,7 @@ const Home = () => {
                     <div className="text-center my-3"><img src="assets/w2.svg" height={130} alt="" /></div>
                     <p className='mb-0'>Don’t let your crypto sit idle! Put it to work with staking, where you 
                       earn a passive income yield on your crypto. Let us do the hard work and you just simply 
-                      enable staking on any of your cryptos where staking is available. Staking is not the same as 
-                      lending your crypto for interest, it is 100% safe and zero risk.</p>
+                      enable staking on any of your cryptos where staking is available.</p>
                   </div>
               </div>
 
@@ -117,8 +116,8 @@ const Home = () => {
           </div> */}
         </section>
 
-        <section>
-          {/* <div className="container">
+        {/* <section>
+          <div className="container">
             <div className="row align-items-center pt-5 pb-md-5">
               <div className="col-md-6">
               <h2 className='mb-3 text-white text-center text-md-start'><span>Bitgreek</span> App</h2>
@@ -134,7 +133,7 @@ const Home = () => {
                 <img src="assets/s11.png" className='w-100' alt="" />
               </div>
             </div>
-          </div> */}
+          </div>
           <div className="bg-white py-lg-4 text-center text-md-start">
           <div className="container">
             <div className="row align-items-center justify-content-between py-5">
@@ -152,7 +151,7 @@ const Home = () => {
             </div>
           </div>
           </div>
-        </section>
+        </section> */}
 
         <section className='py-lg-4 light-bg text-center text-md-start'>
           <div className="container">
