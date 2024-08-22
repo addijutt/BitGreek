@@ -58,7 +58,7 @@ const Home = () => {
         </div>
 
 
-        <section className='bg-white'>
+        <section className='bg-white pb-5'>
           <div className="container">
             <div className="row pt-5 justify-content-center">
               <div className="col-md-12">
@@ -112,9 +112,9 @@ const Home = () => {
               
             </div>
           </div>
-          <div className="big-img">
+          {/* <div className="big-img">
             <img src="assets/bg1.png" className='w-100' alt="" />
-          </div>
+          </div> */}
         </section>
 
         <section>

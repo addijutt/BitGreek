@@ -22,7 +22,7 @@ const Footer = () => {
                 <li><a href="#news" className=''>News</a></li>
                 <li><a href="#prices" className=''>Prices</a></li>
                 <li><a href="#contact" className=''>Contact </a></li>
-                <li><a href="javascript:void(0)" className=''>Pricavy Policy</a></li>
+                <li><a href="javascript:void(0)" className=''>Privacy Policy</a></li>
                 <li><a href="javascript:void(0)" className=''>Terms of Services</a></li>
 
               </ul>
@@ -30,10 +30,10 @@ const Footer = () => {
             <div className="col-md-3 col-7" id='contact'>
               <h5>Contact US</h5>
               <ul>
-                <li><a href="javascript:void(0)" className=''>1 Mayfair, London,
-                W1 7BG </a></li>
-                <li><a href="javascript:void(0)" className=''>Need help? Call us</a></li>
-                <li><a href="tel:(+000) 32 5555 4444" className=''><b>(+000) 32 5555 4444</b></a></li>
+                {/* <li><a href="javascript:void(0)" className=''>1 Mayfair, London,
+                W1 7BG </a></li> */}
+                {/* <li><a href="javascript:void(0)" className=''>Need help? Call us</a></li> */}
+                {/* <li><a href="tel:(+000) 32 5555 4444" className=''><b>(+000) 32 5555 4444</b></a></li> */}
                 <li><a href="mailto:info@bitgreek.com" className=''>info@bitgreek.com </a></li>
 
               </ul>
