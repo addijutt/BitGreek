@@ -115,7 +115,7 @@ const CoinMarketCapData: React.FC = () => {
 
   return (
     <div className="container text-dark data-table">
-      <div className="card bg-white border-0 rounded p-4 pt-0">
+      <div className="card bg-white border-0 rounded p-md-4 px-2 pt-0">
         <table className="table table-light table-hover table-bordered">
           <thead>
             <tr>

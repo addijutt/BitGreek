@@ -652,4 +652,16 @@ footer ul li a:hover {
   padding: 15px 0;
   font-size: 12px;
 }
+.data-table thead tr th:nth-child(6),
+.data-table tbody tr td:nth-child(6),.data-table thead tr th:nth-child(7),
+.data-table tbody tr td:nth-child(7),.data-table thead tr th:nth-child(8),
+.data-table tbody tr td:nth-child(8),.data-table thead tr th:nth-child(9),
+.data-table tbody tr td:nth-child(9),.data-table thead tr th:nth-child(10),
+.data-table tbody tr td:nth-child(10),.data-table thead tr th:nth-child(11){
+  display: none;
+}
+.data-table thead th, .data-table tbody tr td,.data-table tbody tr th{
+  padding: 5px;
+  font-size: 11px;
+}
 }
