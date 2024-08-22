@@ -93,8 +93,7 @@ const Home = () => {
                     <h5 className='mb-4'>Claim Airdrops</h5>
                     <div className="text-center my-3"><img src="assets/w3.svg" height={130} alt="" /></div>
                     <p className='mb-0'>Want to earn airdrops but don’t want to take the risk or the hassle of claiming your airdrops, 
-                      then our airdrops solution is exactly what you need. Simply enable the airdrops option on any of your 
-                      cryptos where airdrops are available and let us do the rest. Simply watch airdrops magically appear in your portfolio. Ouila!</p>
+                      then our airdrops solution is exactly what you need. </p>
                   </div>
               </div>
 
