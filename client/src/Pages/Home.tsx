@@ -83,8 +83,7 @@ const Home = () => {
                     <h5 className='mb-4'>Stake Crypto</h5>
                     <div className="text-center my-3"><img src="assets/w2.svg" height={130} alt="" /></div>
                     <p className='mb-0'>Don’t let your crypto sit idle! Put it to work with staking, where you 
-                      earn a passive income yield on your crypto. Let us do the hard work and you just simply 
-                      enable staking on any of your cryptos where staking is available.</p>
+                      earn a passive income yield on your crypto.</p>
                   </div>
               </div>
 

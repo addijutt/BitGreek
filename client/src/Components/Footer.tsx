@@ -34,7 +34,7 @@ const Footer = () => {
                 {/* <li><a href="javascript:void(0)" className=''>Need help? Call us</a></li> */}
                 {/* <li><a href="tel:(+000) 32 5555 4444" className=''><b>(+000) 32 5555 4444</b></a></li> */}
                 <li><a href="mailto:info@bitgreek.com" className=''>info@bitgreek.com </a></li>
-                <li><a href="https://x.com/BitGreek" target={"_blank"} className='social-link pt-3'><img src="assets/x.svg" alt="" /></a></li>
+                <li><a href="https://x.com/BitGreek" target={"_blank"} className='social-link pt-2'><img src="assets/x.svg" alt="" /></a></li>
 
               </ul>
             </div>
