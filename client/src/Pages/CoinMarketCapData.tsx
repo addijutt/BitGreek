@@ -151,7 +151,7 @@ const CoinMarketCapData: React.FC = () => {
                 <td>${coin.quote.USD.market_cap.toLocaleString()}</td>
                 <td>${coin.quote.USD.volume_24h.toLocaleString()}</td>
                 <td>{coin.circulating_supply.toLocaleString()} {coin.symbol}</td>
-                <td>{renderChart(coin)}</td>
+                <td className='max-100'>{renderChart(coin)}</td>
               </tr>
             ))}
           </tbody>
