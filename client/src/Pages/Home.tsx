@@ -64,7 +64,7 @@ const Home = () => {
               <div className="col-md-12">
               <div className="col-md-8 mx-auto mb-4 mb-lg-5 text-center mb-3"  data-aos="zoom-in" data-aos-duration="1800">
                 <h2 className='mb-3 dark-text'>Why <span>Bitgreek.com</span>?</h2>
-                <p className='dark-text'>Why is crypto so hard? BitGreek.com was born to make a safe, 
+                <p className='dark-text'>Why is crypto so hard? Bitgreek.com was born to make a safe, 
                   simple and fun place to build your crypto fortune. Easily swap crypto, stake crypto 
                   and claim airdrops in one easy place.</p>
               </div>
@@ -106,7 +106,7 @@ const Home = () => {
                     <div className="text-center my-3"><img src="assets/w4.svg" height={130} alt="" /></div>
                     <p className='mb-0'>We sincerely value each and every one of our customers and our goal is 
                       help you build your crypto portfolio in a safe and secure platform. As you use the platform, 
-                      earn BTG tokens as part of the BitGreek.com airdrop program.</p>
+                      earn BTG tokens as part of the Bitgreek.com airdrop program.</p>
                   </div>
               </div>
               
@@ -122,7 +122,7 @@ const Home = () => {
             <div className="row align-items-center pt-5 pb-md-5">
               <div className="col-md-6">
               <h2 className='mb-3 text-white text-center text-md-start'><span>Bitgreek</span> App</h2>
-                <p className='text-white text-center text-md-start'>Built with the latest web3 technology, the BitGreek.com App allows 
+                <p className='text-white text-center text-md-start'>Built with the latest web3 technology, the Bitgreek.com App allows 
                   easy access to the cryptocurrencies in a safe and simple way. Access swaps, 
                   staking and airdrops in one easy-to-use interface.</p>
                   <div className="d-flex flex-md-row flex-column gap-3">
@@ -166,7 +166,7 @@ const Home = () => {
               <h2 className='mb-3 dark-text'>Who is it <span>for</span>?</h2>
                 <p className='dark-text'>Bitgreek.com is specifically designed for those that want a 
                   safe and simple way to build their crypto portfolio. If you find crypto hard and 
-                  risky, then try BitGreek.com.</p>
+                  risky, then try Bitgreek.com.</p>
                   
               </div>
               
