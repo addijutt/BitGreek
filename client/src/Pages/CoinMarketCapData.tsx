@@ -108,10 +108,11 @@ const CoinMarketCapData: React.FC = () => {
       // Format to 8 decimal places if extremely small, otherwise to 4 decimal places
       return price < 0.0001 ? price.toFixed(8) : price.toFixed(4);
     } else {
-      // Format to the nearest integer with comma separators
-      return Math.round(price).toLocaleString();
+      // Format to 2 decimal places if the price is 1 or greater, with comma separators
+      return price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     }
   };
+  
 
   return (
     <div className="container text-dark data-table">
