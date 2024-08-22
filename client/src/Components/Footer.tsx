@@ -15,7 +15,7 @@ const Footer = () => {
                 {/* <a href="javascript:void(0)" className='social-link'><img src="assets/in.svg" alt="" /></a> */}
               </div>
             </div>
-            <div className="col-md-2 col-5">
+            <div className="col-md-3 col-5 offset-lg-1">
               <h5>Quick Links</h5>
               <ul>
                 <li><a href="#home" className=''>Home </a></li>
@@ -39,7 +39,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="col-md-3 mt-md-0 mt-4">
+            {/* <div className="col-md-3 mt-md-0 mt-4">
                 <h5>DOWNLOAD tHE APP</h5>
               <p className='mb-4'>We suggest connecting to the apps you use for work</p>
 
@@ -48,7 +48,7 @@ const Footer = () => {
                 <a href="javascript:void(0)" className='social-link'><img src="assets/Gplay.svg" className='w-100' alt="" /></a>
                 </div>
 
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>

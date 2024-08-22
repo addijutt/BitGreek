@@ -55,10 +55,10 @@ const Header = () => {
               <li className="nav-item"> <a  href="#home" className="nav-link" onClick={() => {homeNav();}}>Home</a> </li>
               <li className="nav-item"> <a  href="#news" className="nav-link" onClick={() => {homeNav();}}>News</a> </li>
               <li className="nav-item"> <a  href="#prices" className="nav-link" onClick={() => {homeNav();}}>Prices</a> </li>
-              <li className="nav-item"> <a  href="#contact" className="nav-link" onClick={() => {homeNav();}}>Contact</a> </li>
+              {/* <li className="nav-item"> <a  href="#contact" className="nav-link" onClick={() => {homeNav();}}>Contact</a> </li> */}
             </ul>
             <div className="d-flex pt-lg-0 pt-5 px-4 px-md-0">
-              <a href="https://app.stratodex.io/" target={'_blank'} className="primary-btn">Buy Now</a>
+              <a href="mailto:info@bitgreek.com" className="primary-btn">Contact</a>
             </div>
           </div>
         </div>
