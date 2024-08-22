@@ -161,10 +161,9 @@ const Home = () => {
               </div>
               </div>
               <div className="col-md-6">
-              <h2 className='mb-3 dark-text'>Who is it <span>for</span>?</h2>
+              <h2 className='mb-3 dark-text'>Crypto <span>Rookie</span>?</h2>
                 <p className='dark-text'>Bitgreek.com is specifically designed for those that want a 
-                  safe and simple way to build their crypto portfolio. If you find crypto hard and 
-                  risky, then try Bitgreek.com.</p>
+                  safe and simple way to build their crypto portfolio.</p>
                   
               </div>
               
