@@ -27,12 +27,12 @@ const Home = () => {
             <div className="row align-items-center text-md-start text-center">
               <div className="col-md-6 mb-md-0 mb-4" data-aos="fade-up" data-aos-duration="1800">
                 <h1 className="mb-3">Simplify  <span>Crypto</span> </h1>
-                <p className="mb-4 px-md-0 px-4">
+                {/* <p className="mb-4 px-md-0 px-4">
                 The simple, safe and fun way to start your crypto journey!
                 </p>
                 <div className="d-flex flex-md-row flex-column gap-3 mb-lg-5 mb-4">
                 <a href="javascript:void(0)" className='secondary-btn'>Get Started</a>
-                </div>
+                </div> */}
                 
               </div>
 
@@ -63,7 +63,7 @@ const Home = () => {
             <div className="row pt-5 justify-content-center">
               <div className="col-md-12">
               <div className="col-md-8 mx-auto mb-4 mb-lg-5 text-center mb-3"  data-aos="zoom-in" data-aos-duration="1800">
-                <h2 className='mb-3 dark-text'>Why <span>Bitgreek.com</span>?</h2>
+                <h2 className='mb-3 dark-text'><span>Bitgreek.com</span> Bitgreek.com Vision</h2>
                 <p className='dark-text'>Why is crypto so hard? Bitgreek.com was born to make a safe, 
                   simple and fun place to build your crypto fortune. Easily swap crypto, stake crypto 
                   and claim airdrops in one easy place.</p>
@@ -100,7 +100,7 @@ const Home = () => {
                   </div>
               </div>
 
-              <div className="col-md-3 mb-4">
+              {/* <div className="col-md-3 mb-4">
                   <div className="dex-card b1"  data-aos="fade-left" data-aos-duration="1800">
                     <h5 className='mb-4'>Earn BTG Tokens</h5>
                     <div className="text-center my-3"><img src="assets/w4.svg" height={130} alt="" /></div>
@@ -108,7 +108,7 @@ const Home = () => {
                       help you build your crypto portfolio in a safe and secure platform. As you use the platform, 
                       earn BTG tokens as part of the Bitgreek.com airdrop program.</p>
                   </div>
-              </div>
+              </div> */}
               
             </div>
           </div>

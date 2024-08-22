@@ -21,9 +21,9 @@ const Footer = () => {
                 <li><a href="#home" className=''>Home </a></li>
                 <li><a href="#news" className=''>News</a></li>
                 <li><a href="#prices" className=''>Prices</a></li>
-                <li><a href="#contact" className=''>Contact </a></li>
+                {/* <li><a href="#contact" className=''>Contact </a></li>
                 <li><a href="javascript:void(0)" className=''>Privacy Policy</a></li>
-                <li><a href="javascript:void(0)" className=''>Terms of Services</a></li>
+                <li><a href="javascript:void(0)" className=''>Terms of Services</a></li> */}
 
               </ul>
             </div>
