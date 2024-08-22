@@ -104,7 +104,13 @@ const CoinMarketCapData: React.FC = () => {
   }
 
   const formatPrice = (price: number) => {
-    return price < 1 ? price.toFixed(8) : price.toFixed(2);
+    if (price < 1) {
+      // Format to 8 decimal places if extremely small, otherwise to 4 decimal places
+      return price < 0.0001 ? price.toFixed(8) : price.toFixed(4);
+    } else {
+      // Format to 2 decimal places if the price is 1 or greater
+      return price.toFixed(2);
+    }
   };
 
   return (
