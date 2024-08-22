@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="d-flex align-items-center justify-content-md-start justify-content-center gap-3 mt-4 mb-md-0 mb-2">
                 {/* <a href="javascript:void(0)" className='social-link'><img src="assets/fb.svg" alt="" /></a> */}
                 <a href="https://x.com/BitGreek" target={"_blank"} className='social-link'><img src="assets/x.svg" alt="" /></a>
-                <a href="https://www.instagram.com/bitgreek/?hl=en" target={"_blank"} className='social-link'><img src="assets/insta.svg" alt="" /></a>
+                {/* <a href="https://www.instagram.com/bitgreek/?hl=en" target={"_blank"} className='social-link'><img src="assets/insta.svg" alt="" /></a> */}
                 {/* <a href="javascript:void(0)" className='social-link'><img src="assets/in.svg" alt="" /></a> */}
               </div>
             </div>
