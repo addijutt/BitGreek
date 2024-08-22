@@ -162,8 +162,7 @@ const Home = () => {
               </div>
               <div className="col-md-6">
               <h2 className='mb-3 dark-text'>Crypto <span>Rookie</span>?</h2>
-                <p className='dark-text'>Bitgreek.com is specifically designed for those that want a 
-                  safe and simple way to build their crypto portfolio.</p>
+                <p className='dark-text'>Bitgreek.com is specifically designed for crypto rookies to learn, earn and grow their crypto in a safe, simple and secure way!</p>
                   
               </div>
               
