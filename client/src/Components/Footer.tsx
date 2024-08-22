@@ -8,9 +8,8 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-4 pt-lg-4 mb-md-0 mb-4">
                 <div className='text-center text-md-start'><img src="assets/logo.png" className='footer-logo' alt="" /></div>
-              <div className="d-flex align-items-center justify-content-md-start justify-content-center gap-3 mt-4 mb-md-0 mb-2">
+              <div className="d-flex align-items-center justify-content-md-start justify-content-center gap-3 mt-2 mb-md-0 mb-2">
                 {/* <a href="javascript:void(0)" className='social-link'><img src="assets/fb.svg" alt="" /></a> */}
-                <a href="https://x.com/BitGreek" target={"_blank"} className='social-link'><img src="assets/x.svg" alt="" /></a>
                 {/* <a href="https://www.instagram.com/bitgreek/?hl=en" target={"_blank"} className='social-link'><img src="assets/insta.svg" alt="" /></a> */}
                 {/* <a href="javascript:void(0)" className='social-link'><img src="assets/in.svg" alt="" /></a> */}
               </div>
@@ -35,6 +34,7 @@ const Footer = () => {
                 {/* <li><a href="javascript:void(0)" className=''>Need help? Call us</a></li> */}
                 {/* <li><a href="tel:(+000) 32 5555 4444" className=''><b>(+000) 32 5555 4444</b></a></li> */}
                 <li><a href="mailto:info@bitgreek.com" className=''>info@bitgreek.com </a></li>
+                <li><a href="https://x.com/BitGreek" target={"_blank"} className='social-link pt-3'><img src="assets/x.svg" alt="" /></a></li>
 
               </ul>
             </div>
