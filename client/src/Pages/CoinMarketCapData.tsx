@@ -135,7 +135,7 @@ const CoinMarketCapData: React.FC = () => {
             {data?.map((coin, index) => (
               <tr key={coin.id}>
                 <td scope="row">{index + 1}</td>
-                <td>
+                <td className='max-100 text-truncate'>
                   {coin.name} ({coin.symbol})
                 </td>
                 <td>${formatPrice(coin.quote.USD.price)}</td>

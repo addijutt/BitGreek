@@ -551,6 +551,9 @@ footer ul li a:hover {
   border-radius: 20px;
 }
 
+.max-100{
+  max-width: 100px;
+}
 
 @media (max-width: 767px) {
 
